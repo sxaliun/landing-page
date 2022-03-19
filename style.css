@@ -36,15 +36,16 @@ ul, a {
 .main-section {
     display: flex;
     flex: 1;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 10px;
-    padding-top: 250px;
-    background-image: url("aa.jpg");
+    padding: 15px 150px;
+    /* background-image: url("aa.jpg");
     background-size: 110%;
-    background-position: -130px -500px;
+    background-position: -130px -500px; */
     font-size: 18px;
+
 }
 
 h1{
@@ -61,8 +62,13 @@ h1{
 }
 
 .awesome {
-    width: 18em;
-    text-align: center;
+    width: 50%;
+    text-align: left;
+}
+
+.back {
+    width: 50%;
+    justify-content: center;
 }
 
 p {
